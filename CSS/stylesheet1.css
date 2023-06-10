@@ -1,0 +1,39 @@
+body{
+	background-color : grey;
+}
+
+#Main_part{
+	height:70%;
+	border:2px black solid;
+	background-color: white;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+
+#Nav_table{
+	height:20%;
+	width:100%;
+	font-family: Oswald;
+}
+
+#Nav_table th{
+	background-color:white;
+	border:2px black solid;
+	text-transform:uppercase;
+	width:25%;
+	height:50px;
+}
+
+#Footer_part{
+	width:100%;
+	background-color:white;
+	border : 2px black solid;
+}
+
+#Header_part{
+	width:100%;
+	background-color:white;
+	border: 2px black solid;
+}
