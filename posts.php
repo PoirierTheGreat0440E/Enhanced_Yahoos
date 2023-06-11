@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8"/>
-	<title> Enhanced Yahoos </title>
+	<title>| POST | Enhanced Yahoos </title>
 	<meta name="description" content="Here's Anthony's personal webpage !"/>
 	<meta name="author" content="Poirier Antoine"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,9 +35,7 @@
 
 			<!-- THE CONTENT ZONE -->
 			<div id="Content_part">
-				<p>Here's where the content should be put...</p><br/><p>Here's where the content should be put...</p><br/><p>Here's where the content should be put...</p>
-				<br/>
-				<button onclick="alert('Stop that');" value="Thrust!">WAIL VIGOROUSLY</button>
+				<p>Here's where anyone discusses about anything !</p>
 			</div>
 
 			<!-- RIGHT SIDE BAR -->
