@@ -7,6 +7,11 @@
 	<meta name="author" content="Poirier Antoine"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="CSS/stylesheet1.css" rel="stylesheet" type="text/css">
+	<script>
+		
+		document.addEventListener("click", e => {console.log(e.pageX);console.log(e.pageY);} );
+
+	</script>
 </head>
 <body>
 

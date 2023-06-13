@@ -2,38 +2,108 @@ body{
 	background-color : grey;
 }
 
+textarea{
+	resize: none;
+}
+
 #Main_part{
-	height:70%;
+	width:100%;
 	border:2px black solid;
 	background-color: white;
 	display: flex;
-	align-items:center;
-	justify-content: center;
+	min-height: 2.75rem;
+	border-radius:5px;
 }
 
+#Left_side_bar{
+	display:flex;
+	width:20%;
+}
+
+#Post_form{
+	background-color:silver;
+	height:99%;
+	width:98%;
+	border-radius:5px;
+	padding:5px;
+}
+
+.post_form_title{
+	font-family: Oswald;
+	font-size:30px;
+	align-self:center;
+}
+
+#Right_side_bar{
+	width:20%;
+	border:2px blue solid;
+}
+
+#Content_part{
+	width:60%;
+	border:2px green solid;
+}
+
+#Nav_part{
+	height:100px;
+	display:flex;
+	flex-direction: row;
+}
+
+#Logo_part{
+	border:3px purple dotted;
+	width:20%;
+	height:100%;
+}
 
 #Nav_table{
-	height:20%;
-	width:100%;
+	width:80%;
+	height:100%;
+	border:1px black solid;
+	background-color:white;
 	font-family: Oswald;
+	display: inline-flex;
+	flex-direction:row;
 }
 
-#Nav_table th{
+#Nav_table  a {
 	background-color:white;
-	border:2px black solid;
 	text-transform:uppercase;
-	width:25%;
-	height:50px;
+	width:24%;
+	margin:7px;
+}
+
+#Nav_table a div {
+	display : flex;
+	width:100%;
+	height:85px;
+	align-items: center;
+	justify-content: center;
+	border : 2px blue dotted;
+	border-radius:5px;
 }
 
 #Footer_part{
+	display : inline-flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content:center;
 	width:100%;
 	background-color:white;
 	border : 2px black solid;
+	border-radius:5px;
+
 }
 
-#Header_part{
-	width:100%;
-	background-color:white;
-	border: 2px black solid;
+.post_form_input{
+	border:1px black solid;
+	width:90%;
+}
+
+.post_form_input:valid{
+	border:2px green solid;
+}
+
+.post_form_input:invalid{
+	border:2px red solid;
 }
