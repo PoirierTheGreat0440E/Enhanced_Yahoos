@@ -107,3 +107,9 @@ textarea{
 .post_form_input:invalid{
 	border:2px red solid;
 }
+
+alert{
+	width:100%;
+	display: flex;
+	align-items: center;
+}
